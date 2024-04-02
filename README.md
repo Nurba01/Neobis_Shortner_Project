@@ -1,15 +1,15 @@
 
-# 🔗 URL Shortner
+#  URL Shortner
 
 This project implements a URL shortener service using Django and PostgreSQL. It allows users to input a URL and receive a shortened version of it, which redirects to the original URL when accessed.
 
-## 📋 Features
+##  Features
 
 - **URL Shortening**: Users can submit a URL to be shortened. The application generates a unique identifier, saves it along with the original URL, and provides a shortened URL to the user.
 - **URL Redirection**: When a user accesses a shortened URL, the application redirects them to the original, longer URL.
 - **Database**: PostgreSQL is used to store the original and shortened URLs, ensuring fast retrieval and management of data.
 
-## 🛠️ Technologies and Libraries
+## 🛠 Technologies and Libraries
 ![Alt text for Logo1](https://camo.githubusercontent.com/0562f16a4ae7e35dae6087bf8b7805fb7e664a9e7e20ae6d163d94e56b94f32d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534)
 ![Alt text for Logo2](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green) 
 ![Alt text for Logo3](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) 
