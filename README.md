@@ -29,13 +29,7 @@ These instructions will guide you through setting up the project on your local m
 ### Setting Up a Virtual Environment
 1. **Clone the repository:**
 
-    ```bash
-    git clone git@github.com:Talantino/python-4-url-shortener.git
-    ```
-
 2. **Set up and activate a virtual environment:**
-
-  Creating a virtual environment is recommended to keep dependencies required by different projects separate.
 
   - Install virtualenv if you haven't installed it yet:
 
@@ -65,8 +59,6 @@ These instructions will guide you through setting up the project on your local m
 
 3. **Install dependencies:**
 
-    With the virtual environment activated, install the project dependencies:
-
     ```bash
     pip install -r requirements.txt
     ```
@@ -77,8 +69,6 @@ These instructions will guide you through setting up the project on your local m
 
 5. **Perform database migrations:**
 
-    Navigate to the `url-shortener` directory and apply migrations to set up your database schema:
-
     ```bash
     cd url-shortener
     python manage.py migrate
@@ -86,30 +76,22 @@ These instructions will guide you through setting up the project on your local m
 
 6. **Create a superuser:**
 
-    Create a superuser for Django's admin panel with the following command:
-
     ```bash
     python manage.py createsuperuser
-    ```
 
-    Follow the prompts to set up the username, email, and password for the superuser.
 
 7. **Run the project:**
 
-    Start the Django development server:
-
     ```bash
     python manage.py runserver
-    ```
 
-    The project will be available at `http://127.0.0.1:8000/`.
 
-## 🕹️ Usage
+##  Usage
 
 To shorten a URL, navigate to the home page and enter the URL in the form provided. Submitting the form will generate a shortened URL which redirects to the original URL when accessed.
 
 For administrative tasks, such as viewing or deleting shortened URLs, access Django's admin panel at `http://127.0.0.1:8000/admin` using the superuser credentials you created.
 
 
-## 🤝 Contributing
+##  Contributing
 Contributions to improve the project are welcome. Please feel free to fork the repository and submit pull requests.
